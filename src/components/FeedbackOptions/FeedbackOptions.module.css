@@ -1,0 +1,37 @@
+.ButtonsFeedback__list{
+    display: flex;
+    gap: 50px;
+
+    margin-top: 50px;
+    /*margin-left: 100px; */
+
+    list-style: none;
+
+}
+
+.ButtonsFeedback__button{
+    width: 160px;
+    padding: 12px;
+
+    background-color: aquamarine;
+    border-radius: 12px;
+    border: none;
+   
+    text-align: center;
+    font-size: 36px;
+    text-transform: capitalize;
+
+    outline: none;
+    cursor: pointer;
+    transition: transform 250ms linear;
+
+
+
+    &:hover,
+    &:focus{
+        background-color: rgb(72, 243, 186);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        transform: scale(1.2);
+    }
+
+}
